@@ -11,4 +11,5 @@ RUN apt-get install -y \
   libxrender1 \
   libxext-dev
 
+RUN pip3 install -U pip
 RUN pip3 install -r /opt/requirements.txt
