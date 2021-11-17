@@ -2,6 +2,7 @@ trimesh==3.9.8
 numpy==1.19.2
 pyhocon==0.3.57
 icecream==2.1.0
+scikit-build
 opencv_python==4.5.4.58
 tqdm==4.50.2
 torch==1.8.0
