@@ -9,7 +9,9 @@ RUN apt-get install -y \
   python3-pip \
   libsm6 \
   libxrender1 \
-  libxext-dev
+  libxext-dev \
+  ffmpeg \
+  libxext6
 
 RUN pip3 install -U pip
 RUN pip3 install -r /opt/requirements.txt
