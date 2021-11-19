@@ -37,7 +37,7 @@ cd NeuS
 pip install -r requirements.txt
 ```
 
-Use the Dockerfile for the reproduction.
+Use the **Dockerfile** for the reproduction.
 
 <details>
   <summary> Dependencies (click to expand) </summary>
@@ -65,7 +65,6 @@ python exp_runner.py --mode train --conf ./confs/womask.conf --case <case_name>
 E.g, for DTU dataset, change the confs/womask\_dtu\_large\_roi.conf like
 
 ```json
-...
 dataset {
     data_dir = ./public_data/scan83/
     render_cameras_name = cameras.npz
