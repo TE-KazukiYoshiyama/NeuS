@@ -1,5 +1,5 @@
 # NeuS
-We present a novel neural surface reconstruction method, called NeuS, for reconstructing objects and scenes with high fidelity from 2D image inputs.
+We present a novel neural surface reconstruction method, called NeuS (pronunciation: /nuːz/, same as "news"), for reconstructing objects and scenes with high fidelity from 2D image inputs.
 
 ![](./static/intro_1_compressed.gif)
 ![](./static/intro_2_compressed.gif)
@@ -95,6 +95,10 @@ python exp_runner.py --mode interpolate_<img_idx_0>_<img_idx_1> --conf <config_f
 ```
 
 The corresponding image set of view interpolation can be found in `exp/<case_name>/<exp_name>/render/`.
+
+### Train NeuS with your custom data
+
+More information can be found in [preprocess_custom_data](https://github.com/Totoro97/NeuS/tree/main/preprocess_custom_data).
 
 ## Citation
 
