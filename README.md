@@ -96,6 +96,18 @@ python exp_runner.py --mode interpolate_<img_idx_0>_<img_idx_1> --conf <config_f
 
 The corresponding image set of view interpolation can be found in `exp/<case_name>/<exp_name>/render/`.
 
+
+- **Evaluation with cleaned mesh** 
+
+```shell
+python3 models/clean_mesh.py --scans <id0> <id1> ...
+
+python models/eval.py \
+    --data exp/scan<id>}/womask_large_roi/meshes/00300000_clean.ply \
+    --scan <id> \
+    --dataset_dir ~/data/DTUMVS_ref
+```
+
 ### Train NeuS with your custom data
 
 More information can be found in [preprocess_custom_data](https://github.com/Totoro97/NeuS/tree/main/preprocess_custom_data).
