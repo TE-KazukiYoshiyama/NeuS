@@ -105,7 +105,7 @@ python3 models/clean_mesh.py --scans <id0> <id1> ...
 python3 models/eval.py \
     --data exp/scan<id>/womask_large_roi/meshes/00300000_clean.ply \
     --scan <id> \
-    --dataset_dir ~/data/DTUMVS_ref
+    --dataset_dir ~/data/DTUMVS_ref > exp/scan${id}/womask_large_roi/chamfers.txt
 ```
 
 ### Train NeuS with your custom data
