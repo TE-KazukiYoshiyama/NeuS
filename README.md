@@ -103,7 +103,7 @@ The corresponding image set of view interpolation can be found in `exp/<case_nam
 python3 models/clean_mesh.py --scans <id0> <id1> ...
 
 python models/eval.py \
-    --data exp/scan<id>}/womask_large_roi/meshes/00300000_clean.ply \
+    --data exp/scan<id>/womask_large_roi/meshes/00300000_clean.ply \
     --scan <id> \
     --dataset_dir ~/data/DTUMVS_ref
 ```
